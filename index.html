@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+	<title>YouTube Thumbnail Downloader - ToolsOverflow</title>
+
+	<!-- Description & Keywords -->
+	<meta name="title" content="YouTube Thumbnail Downloader - ToolsOverflow">
+	<meta name="description" content="Download and view thumbnail of any YouTube video in all available resolutions and qualities. It offers one click download without showing annoying ads."/>
+	<meta name="keywords" content="yt thumbnail download, youtube thumbnail downloader, youtube thumbnail grabber, thumbnail grabber, youtube video thumbnail download, youtube thamble download, download youtube video thumbnail, youtube thumbnail free download">
+	
+	<!-- Meta & Canonical -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-token" content="6.UogyBnvwYJJqVQWHCAs.eG0AWJUVRRvfmOdmKQSSvI/zjaKAG5u"/>
+	<meta name="google" content="notranslate"/>
+	<link rel="canonical" href="https://www.toolsoverflow.com/youtube/youtube-thumbnail-downloader"/>
+
+	
+	<!-- OpenGraph Meta Tags -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="YouTube Thumbnail Downloader - ToolsOverflow"/>
+	<meta property="og:description" content="Download and view thumbnail of any YouTube video in all available resolutions and qualities. It offers one click download without showing annoying ads."/>
+	<meta property="og:url" content="https://www.toolsoverflow.com/youtube/youtube-thumbnail-downloader"/>
+	<meta property="og:image" content="https://www.toolsoverflow.com/youtube/assets/img/thumbnail-downloader-toolsoverflow.png" />
+	<meta property="og:site_name" content="ToolsOverflow" />
+	
+	<!-- Twitter Meta Tags	-->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@OverflowTools">
+	<meta name="twitter:title" content="YouTube Thumbnail Downloader - ToolsOverflow">
+	<meta name="twitter:description" content="Download and view thumbnail of any YouTube video in all available resolutions and qualities. It offers one click download without showing annoying ads.">
+	<meta name="twitter:image" content="https://www.toolsoverflow.com/youtube/assets/img/thumbnail-downloader-toolsoverflow.png">
+	<meta name="twitter:creator" content="@OverflowTools">
+
+	<!-- Favicon -->
+    <link rel='apple-touch-icon' sizes='180x180' href='/assets/favicon/apple-touch-icon.png?v=1.1'>
+    <link rel='icon' type='image/png' sizes='32x32' href='/assets/favicon/favicon-32x32.png?v=1.1'>
+    <link rel='icon' type='image/png' sizes='16x16' href='/assets/favicon/favicon-16x16.png?v=1.1'>
+    <link rel='manifest' href='/assets/favicon/site.webmanifest?v=1.1'>
+    <link rel='shortcut icon' href='/assets/favicon/favicon.ico?v=1.1'>
+    <meta name='msapplication-TileColor' content='#2d89ef'>
+    <meta name='msapplication-config' content='/assets/favicon/browserconfig.xml?v=1.1'>
+    <meta name='theme-color' content='#ffffff'>
+
+	<!-- CSS & Fonts -->
+	<link rel="stylesheet" type="text/css" href="/css/tool-navbar.css?v=2.4">
+	<link rel="stylesheet" type="text/css" href="assets/css/youtube-thumbnail.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="/assets/scripts/tool-tof.js"></script>
+	<script src="assets/script/youtube-thumbnail.tof.js?v=2.4"></script>
+	<script src="/assets/scripts/tof-theme.js"></script>
+	
+	    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8652185187716253"
+     crossorigin="anonymous"></script>
+     
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S5XSYPHEC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0S5XSYPHEC');
+    </script>
+    
+</head>
+<body>
+	<!-- Navbar -->
+	<!-- Mobile Sidebar -->
+<div class='tof-m-sidebar'>
+<div class='tof-m-s-head'>
+	<div class='toogle-theme'>
+		<svg id='sun-rise' viewBox='0 0 122.88 122.88'><path d='M30,13.21A3.93,3.93,0,1,1,36.8,9.27L41.86,18A3.94,3.94,0,1,1,35.05,22L30,13.21Zm31.45,13A35.23,35.23,0,1,1,36.52,36.52,35.13,35.13,0,0,1,61.44,26.2ZM58.31,4A3.95,3.95,0,1,1,66.2,4V14.06a3.95,3.95,0,1,1-7.89,0V4ZM87.49,10.1A3.93,3.93,0,1,1,94.3,14l-5.06,8.76a3.93,3.93,0,1,1-6.81-3.92l5.06-8.75ZM109.67,30a3.93,3.93,0,1,1,3.94,6.81l-8.75,5.06a3.94,3.94,0,1,1-4-6.81L109.67,30Zm9.26,28.32a3.95,3.95,0,1,1,0,7.89H108.82a3.95,3.95,0,1,1,0-7.89Zm-6.15,29.18a3.93,3.93,0,1,1-3.91,6.81l-8.76-5.06A3.93,3.93,0,1,1,104,82.43l8.75,5.06ZM92.89,109.67a3.93,3.93,0,1,1-6.81,3.94L81,104.86a3.94,3.94,0,0,1,6.81-4l5.06,8.76Zm-28.32,9.26a3.95,3.95,0,1,1-7.89,0V108.82a3.95,3.95,0,1,1,7.89,0v10.11Zm-29.18-6.15a3.93,3.93,0,0,1-6.81-3.91l5.06-8.76A3.93,3.93,0,1,1,40.45,104l-5.06,8.75ZM13.21,92.89a3.93,3.93,0,1,1-3.94-6.81L18,81A3.94,3.94,0,1,1,22,87.83l-8.76,5.06ZM4,64.57a3.95,3.95,0,1,1,0-7.89H14.06a3.95,3.95,0,1,1,0,7.89ZM10.1,35.39A3.93,3.93,0,1,1,14,28.58l8.76,5.06a3.93,3.93,0,1,1-3.92,6.81L10.1,35.39Z'/></svg>
+
+		<svg id='sun-set' viewBox='0 0 240 240' style='enable-background:new 0 0 240 240'><g><path d='M58.57,25.81c-2.13-3.67-0.87-8.38,2.8-10.51c3.67-2.13,8.38-0.88,10.51,2.8l9.88,17.1c2.13,3.67,0.87,8.38-2.8,10.51 c-3.67,2.13-8.38,0.88-10.51-2.8L58.57,25.81L58.57,25.81z M120,51.17c19.01,0,36.21,7.7,48.67,20.16 C181.12,83.79,188.83,101,188.83,120c0,19.01-7.7,36.21-20.16,48.67c-12.46,12.46-29.66,20.16-48.67,20.16 c-19.01,0-36.21-7.7-48.67-20.16C58.88,156.21,51.17,139.01,51.17,120c0-19.01,7.7-36.21,20.16-48.67 C83.79,58.88,101,51.17,120,51.17L120,51.17z M158.27,81.73c-9.79-9.79-23.32-15.85-38.27-15.85c-14.95,0-28.48,6.06-38.27,15.85 c-9.79,9.79-15.85,23.32-15.85,38.27c0,14.95,6.06,28.48,15.85,38.27c9.79,9.79,23.32,15.85,38.27,15.85 c14.95,0,28.48-6.06,38.27-15.85c9.79-9.79,15.85-23.32,15.85-38.27C174.12,105.05,168.06,91.52,158.27,81.73L158.27,81.73z M113.88,7.71c0-4.26,3.45-7.71,7.71-7.71c4.26,0,7.71,3.45,7.71,7.71v19.75c0,4.26-3.45,7.71-7.71,7.71 c-4.26,0-7.71-3.45-7.71-7.71V7.71L113.88,7.71z M170.87,19.72c2.11-3.67,6.8-4.94,10.48-2.83c3.67,2.11,4.94,6.8,2.83,10.48 l-9.88,17.1c-2.11,3.67-6.8,4.94-10.48,2.83c-3.67-2.11-4.94-6.8-2.83-10.48L170.87,19.72L170.87,19.72z M214.19,58.57 c3.67-2.13,8.38-0.87,10.51,2.8c2.13,3.67,0.88,8.38-2.8,10.51l-17.1,9.88c-3.67,2.13-8.38,0.87-10.51-2.8 c-2.13-3.67-0.88-8.38,2.8-10.51L214.19,58.57L214.19,58.57z M232.29,113.88c4.26,0,7.71,3.45,7.71,7.71 c0,4.26-3.45,7.71-7.71,7.71h-19.75c-4.26,0-7.71-3.45-7.71-7.71c0-4.26,3.45-7.71,7.71-7.71H232.29L232.29,113.88z M220.28,170.87 c3.67,2.11,4.94,6.8,2.83,10.48c-2.11,3.67-6.8,4.94-10.48,2.83l-17.1-9.88c-3.67-2.11-4.94-6.8-2.83-10.48 c2.11-3.67,6.8-4.94,10.48-2.83L220.28,170.87L220.28,170.87z M181.43,214.19c2.13,3.67,0.87,8.38-2.8,10.51 c-3.67,2.13-8.38,0.88-10.51-2.8l-9.88-17.1c-2.13-3.67-0.87-8.38,2.8-10.51c3.67-2.13,8.38-0.88,10.51,2.8L181.43,214.19 L181.43,214.19z M126.12,232.29c0,4.26-3.45,7.71-7.71,7.71c-4.26,0-7.71-3.45-7.71-7.71v-19.75c0-4.26,3.45-7.71,7.71-7.71 c4.26,0,7.71,3.45,7.71,7.71V232.29L126.12,232.29z M69.13,220.28c-2.11,3.67-6.8,4.94-10.48,2.83c-3.67-2.11-4.94-6.8-2.83-10.48 l9.88-17.1c2.11-3.67,6.8-4.94,10.48-2.83c3.67,2.11,4.94,6.8,2.83,10.48L69.13,220.28L69.13,220.28z M25.81,181.43 c-3.67,2.13-8.38,0.87-10.51-2.8c-2.13-3.67-0.88-8.38,2.8-10.51l17.1-9.88c3.67-2.13,8.38-0.87,10.51,2.8 c2.13,3.67,0.88,8.38-2.8,10.51L25.81,181.43L25.81,181.43z M7.71,126.12c-4.26,0-7.71-3.45-7.71-7.71c0-4.26,3.45-7.71,7.71-7.71 h19.75c4.26,0,7.71,3.45,7.71,7.71c0,4.26-3.45,7.71-7.71,7.71H7.71L7.71,126.12z M19.72,69.13c-3.67-2.11-4.94-6.8-2.83-10.48 c2.11-3.67,6.8-4.94,10.48-2.83l17.1,9.88c3.67,2.11,4.94,6.8,2.83,10.48c-2.11,3.67-6.8,4.94-10.48,2.83L19.72,69.13L19.72,69.13z'/></g></svg>
+	</div>
+	<div class='tof-m-s-cross'></div>
+</div>
+
+			<!-- Accounts -->
+			<div class='tof-m-s-division'>Accounts</div>
+			<div class='tof-m-s-wrap' onclick=window.location.href='/login'>
+				<div class='tof-m-s-name'>Log in</div>
+			</div>
+			<div class='tof-m-s-wrap' onclick=window.location.href='/create-account'>
+				<div class='tof-m-s-name'>Create Account</div>
+			</div>
+		
+<!-- Quick Links -->
+<div class='tof-m-s-division'>Quick Links</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/about'>
+	<div class='tof-m-s-name'>About</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/contact'>
+	<div class='tof-m-s-name'>Contact</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/privacy-policy'>
+	<div class='tof-m-s-name'>Privacy Policy</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/refund-policy'>
+	<div class='tof-m-s-name'>Refund Policy</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/terms-of-service'>
+	<div class='tof-m-s-name'>Terms of Service</div>
+</div>
+
+<!-- API's -->
+<div class='tof-m-s-division'>API</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/api-services'>
+	<div class='tof-m-s-name'>API Services</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='/documentation'>
+	<div class='tof-m-s-name'>Documentation</div>
+</div>
+
+<!-- Social Media -->
+<div class='tof-m-s-division'>Social Links</div>
+<div class='tof-m-s-wrap'>
+	<div class='tof-m-s-logo'><i class='tof-instagram'></i></div>
+	<div class='tof-m-s-name'>Instagram</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='https://www.youtube.com/channel/UC-SAwkF4_sjeOmetocafSDg'>
+	<div class='tof-m-s-logo'><i class='tof-youtube'></i></div>
+	<div class='tof-m-s-name'>YouTube</div>
+</div>
+<div class='tof-m-s-wrap' onclick=window.location.href='https://twitter.com/OverflowTools'>
+	<div class='tof-m-s-logo'><i class='tof-twitter'></i></div>
+	<div class='tof-m-s-name'>Twitter</div>
+</div>
+</div>
+
+<div class="opacity-div"></div>
+<div class="navbar-wrapper">
+	<div class="top-navbar">
+		<a href="/">
+			<div class="top-nav-logo">
+				<div class="top-nav-logo-image"></div>
+				<div class="top-nav-logo-name">ToolsOverflow</div>
+			</div>
+			<div class="top-nav-interactions">
+				<li class="top-nav-large"><a href="/about">About</a></li>
+				<li class="top-nav-large"><a href="/contact">Contact</a></li>
+								<li class="top-nav-large"><a href="/login">Login</a></li>
+								<li class="toogle-theme top-nav-large">
+					<svg id='sun-rise' viewBox='0 0 122.88 122.88'><path d='M30,13.21A3.93,3.93,0,1,1,36.8,9.27L41.86,18A3.94,3.94,0,1,1,35.05,22L30,13.21Zm31.45,13A35.23,35.23,0,1,1,36.52,36.52,35.13,35.13,0,0,1,61.44,26.2ZM58.31,4A3.95,3.95,0,1,1,66.2,4V14.06a3.95,3.95,0,1,1-7.89,0V4ZM87.49,10.1A3.93,3.93,0,1,1,94.3,14l-5.06,8.76a3.93,3.93,0,1,1-6.81-3.92l5.06-8.75ZM109.67,30a3.93,3.93,0,1,1,3.94,6.81l-8.75,5.06a3.94,3.94,0,1,1-4-6.81L109.67,30Zm9.26,28.32a3.95,3.95,0,1,1,0,7.89H108.82a3.95,3.95,0,1,1,0-7.89Zm-6.15,29.18a3.93,3.93,0,1,1-3.91,6.81l-8.76-5.06A3.93,3.93,0,1,1,104,82.43l8.75,5.06ZM92.89,109.67a3.93,3.93,0,1,1-6.81,3.94L81,104.86a3.94,3.94,0,0,1,6.81-4l5.06,8.76Zm-28.32,9.26a3.95,3.95,0,1,1-7.89,0V108.82a3.95,3.95,0,1,1,7.89,0v10.11Zm-29.18-6.15a3.93,3.93,0,0,1-6.81-3.91l5.06-8.76A3.93,3.93,0,1,1,40.45,104l-5.06,8.75ZM13.21,92.89a3.93,3.93,0,1,1-3.94-6.81L18,81A3.94,3.94,0,1,1,22,87.83l-8.76,5.06ZM4,64.57a3.95,3.95,0,1,1,0-7.89H14.06a3.95,3.95,0,1,1,0,7.89ZM10.1,35.39A3.93,3.93,0,1,1,14,28.58l8.76,5.06a3.93,3.93,0,1,1-3.92,6.81L10.1,35.39Z'/></svg>
+
+					<svg id='sun-set' viewBox='0 0 240 240' style='enable-background:new 0 0 240 240'><g><path d='M58.57,25.81c-2.13-3.67-0.87-8.38,2.8-10.51c3.67-2.13,8.38-0.88,10.51,2.8l9.88,17.1c2.13,3.67,0.87,8.38-2.8,10.51 c-3.67,2.13-8.38,0.88-10.51-2.8L58.57,25.81L58.57,25.81z M120,51.17c19.01,0,36.21,7.7,48.67,20.16 C181.12,83.79,188.83,101,188.83,120c0,19.01-7.7,36.21-20.16,48.67c-12.46,12.46-29.66,20.16-48.67,20.16 c-19.01,0-36.21-7.7-48.67-20.16C58.88,156.21,51.17,139.01,51.17,120c0-19.01,7.7-36.21,20.16-48.67 C83.79,58.88,101,51.17,120,51.17L120,51.17z M158.27,81.73c-9.79-9.79-23.32-15.85-38.27-15.85c-14.95,0-28.48,6.06-38.27,15.85 c-9.79,9.79-15.85,23.32-15.85,38.27c0,14.95,6.06,28.48,15.85,38.27c9.79,9.79,23.32,15.85,38.27,15.85 c14.95,0,28.48-6.06,38.27-15.85c9.79-9.79,15.85-23.32,15.85-38.27C174.12,105.05,168.06,91.52,158.27,81.73L158.27,81.73z M113.88,7.71c0-4.26,3.45-7.71,7.71-7.71c4.26,0,7.71,3.45,7.71,7.71v19.75c0,4.26-3.45,7.71-7.71,7.71 c-4.26,0-7.71-3.45-7.71-7.71V7.71L113.88,7.71z M170.87,19.72c2.11-3.67,6.8-4.94,10.48-2.83c3.67,2.11,4.94,6.8,2.83,10.48 l-9.88,17.1c-2.11,3.67-6.8,4.94-10.48,2.83c-3.67-2.11-4.94-6.8-2.83-10.48L170.87,19.72L170.87,19.72z M214.19,58.57 c3.67-2.13,8.38-0.87,10.51,2.8c2.13,3.67,0.88,8.38-2.8,10.51l-17.1,9.88c-3.67,2.13-8.38,0.87-10.51-2.8 c-2.13-3.67-0.88-8.38,2.8-10.51L214.19,58.57L214.19,58.57z M232.29,113.88c4.26,0,7.71,3.45,7.71,7.71 c0,4.26-3.45,7.71-7.71,7.71h-19.75c-4.26,0-7.71-3.45-7.71-7.71c0-4.26,3.45-7.71,7.71-7.71H232.29L232.29,113.88z M220.28,170.87 c3.67,2.11,4.94,6.8,2.83,10.48c-2.11,3.67-6.8,4.94-10.48,2.83l-17.1-9.88c-3.67-2.11-4.94-6.8-2.83-10.48 c2.11-3.67,6.8-4.94,10.48-2.83L220.28,170.87L220.28,170.87z M181.43,214.19c2.13,3.67,0.87,8.38-2.8,10.51 c-3.67,2.13-8.38,0.88-10.51-2.8l-9.88-17.1c-2.13-3.67-0.87-8.38,2.8-10.51c3.67-2.13,8.38-0.88,10.51,2.8L181.43,214.19 L181.43,214.19z M126.12,232.29c0,4.26-3.45,7.71-7.71,7.71c-4.26,0-7.71-3.45-7.71-7.71v-19.75c0-4.26,3.45-7.71,7.71-7.71 c4.26,0,7.71,3.45,7.71,7.71V232.29L126.12,232.29z M69.13,220.28c-2.11,3.67-6.8,4.94-10.48,2.83c-3.67-2.11-4.94-6.8-2.83-10.48 l9.88-17.1c2.11-3.67,6.8-4.94,10.48-2.83c3.67,2.11,4.94,6.8,2.83,10.48L69.13,220.28L69.13,220.28z M25.81,181.43 c-3.67,2.13-8.38,0.87-10.51-2.8c-2.13-3.67-0.88-8.38,2.8-10.51l17.1-9.88c3.67-2.13,8.38-0.87,10.51,2.8 c2.13,3.67,0.88,8.38-2.8,10.51L25.81,181.43L25.81,181.43z M7.71,126.12c-4.26,0-7.71-3.45-7.71-7.71c0-4.26,3.45-7.71,7.71-7.71 h19.75c4.26,0,7.71,3.45,7.71,7.71c0,4.26-3.45,7.71-7.71,7.71H7.71L7.71,126.12z M19.72,69.13c-3.67-2.11-4.94-6.8-2.83-10.48 c2.11-3.67,6.8-4.94,10.48-2.83l17.1,9.88c3.67,2.11,4.94,6.8,2.83,10.48c-2.11,3.67-6.8,4.94-10.48,2.83L19.72,69.13L19.72,69.13z'/></g></svg>
+				</li>
+				<li id='t-nav-r-sidebar'>
+					<svg id='t-nav-sidebar' aria-hidden='true' viewBox='0 0 16 16'>
+					    <path fill-rule='evenodd' d='M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z'></path>
+					</svg>
+				</li>
+			</div>
+		</a>
+	</div>
+</div>
+	<!-- Tool Content -->
+	<!-- Message -->
+	<div class="successMessage">Downloaded!</div>
+	<div class="yt-top-wrapper">
+		<div class="yt-tool-wrapper">
+			<div class="yt-top-heading">
+				<span id="yt-text">YouTube</span>
+				<span id="yt-other">Thumbnail Downloader</span>
+			</div>
+			<div class="yt-search-wrapper">
+				<input type="text" id="yt-search" tabindex="1" placeholder="Paste or Enter a video URL" />
+				<div class="yt-input-logo">
+					<svg class="promoted-search__search-icon" viewBox="0 0 24 24"><path d="M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z"></path><path d="M0 0h24v24H0V0z" fill="none"></path></svg>
+				</div>
+			</div>
+			<!-- Results -->
+			<div class="yt-result-wrapper">
+				<!-- Err Message -->
+				<div class="yt-result-content">
+					<div class="yt-result">
+						<!-- Thumbnail Result -->
+						<div class="yt-thumb-result-wrapper">
+							<div class="yt-thumbnail-preview thumb-preview-skeleton">
+								<div class="yt-thumbnail-preview-default thumb-image-skeleton">
+									<img id="thumbnail-preview" src="" id='thumbnail-preview'/>
+								</div>
+								<div class="yt-thumbnail-preview-message">
+									<div class="yt-thumbnail-preview-message-text">
+										<span>Press <span id="window-btn">ctrl</span> + <span id="window-btn">s</span> to download the maxed quality thumbnail</span>
+									</div>
+								</div>
+							</div>
+							<div class="yt-thumbnail-result">
+								<div class="yt-thumbnail-result-head default-skeleton">DOWNLOAD OPTIONS</div>
+								<div class="yt-thumbnail-result-content">
+									<!-- Download Options -->
+									<div class="yt-thumbnail-result-option" id="high-quality-option">
+										<div class="yt-result-options-info">
+											<div class="yt-thumbnail-options-head default-skeleton">High Quality</div>
+											<div class="yt-thumbnail-options-des default-skeleton"><span>Resolution: </span> 1280 x 720</div>
+										</div>
+										<div class="yt-result-options-download default-skeleton">
+											<button id="high-quality" class="hdvideoButton">Download</button>
+											<div class="yt-result-options-preview-button" id="hight-quality-preview"></div>
+										</div>
+									</div>
+
+									<!-- Download Options -->
+									<div class="yt-thumbnail-result-option" id="medium-quality-option">
+										<div class="yt-result-options-info">
+											<div class="yt-thumbnail-options-head default-skeleton">Medium Quality</div>
+											<div class="yt-thumbnail-options-des default-skeleton"><span>Resolution: </span> 640 x 480</div>
+										</div>
+										<div class="yt-result-options-download default-skeleton">
+											<button id="medium-quality">Download</button>
+											<div class="yt-result-options-preview-button" id="medium-quality-preview"></div>
+										</div>
+									</div>
+
+									<!-- Download Options -->
+									<div class="yt-thumbnail-result-option">
+										<div class="yt-result-options-info">
+											<div class="yt-thumbnail-options-head default-skeleton">Standard Quality</div>
+											<div class="yt-thumbnail-options-des default-skeleton"><span>Resolution: </span> 480 x 360</div>
+										</div>
+										<div class="yt-result-options-download default-skeleton">
+											<button id="standard-quality">Download</button>
+											<div class="yt-result-options-preview-button" id="standard-quality-preview"></div>
+										</div>
+									</div>
+									
+									<!-- Download Options -->
+									<div class="yt-thumbnail-result-option">
+										<div class="yt-result-options-info">
+											<div class="yt-thumbnail-options-head default-skeleton">Low Quality</div>
+											<div class="yt-thumbnail-options-des default-skeleton"><span>Resolution: </span> 320 x 180</div>
+										</div>
+										<div class="yt-result-options-download default-skeleton">
+											<button id="m-low-quality">Download</button>
+											<div class="yt-result-options-preview-button" id="m-low-quality-preview"></div>
+										</div>
+									</div>
+
+									<!-- Download Options -->
+									<div class="yt-thumbnail-result-option">
+										<div class="yt-result-options-info">
+											<div class="yt-thumbnail-options-head default-skeleton">Lowest Quality</div>
+											<div class="yt-thumbnail-options-des default-skeleton"><span>Resolution: </span> 120 x 90</div>
+										</div>
+										<div class="yt-result-options-download default-skeleton">
+											<button id="low-quality">Download</button>
+											<div class="yt-result-options-preview-button" id="low-quality-preview"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Nothing to See -->
+				<div class="yt-result-empty">
+					<div class="yt-result-empty-icon"></div>
+					<div class="yt-result-empty-des">Enter a YouTube video URL</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<!-- Advertisement -->
+    <div class="site-ads tof-bottom-ad">
+        <!-- tof_header_ad -->
+        <ins class="adsbygoogle ads-horizontal"
+             style="display:block"
+             data-ad-client="ca-pub-8652185187716253"
+             data-ad-slot="6955115615"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div class="site-ads tof-padding-absolute"></div>
+    
+	<!-- Page Content -->   
+    <div class="tof-faq-wrapper">
+        <div class="tool-sec-header"></div>
+        <div class="tof-faq-header">
+            <h1 id="faq-highlight">YouTube Video Thumbnail Downloader</h1>
+        </div>
+        <!-- About this tool -->
+        <div class="tof-about-wrapper">
+        	<div class="about-content contentinfo">📢 Do not use this tool to download thumbnails of others with the intention of infringing copyright.</div>
+            <p>Download any YouTube video thumbnail of all available qualities uploaded by the publisher in a few milliseconds for free. It's so fast that as soon as you paste the video link, you'll get a result with a download button next to each available quality thumbnail.</h2>
+            <p>You can check region restrictions on any YouTube video by following these three steps -</p>
+            <ol>
+                <li>Copy link of the video</li>
+                <li>Paste the link in the input box</li>
+                <li>And done. This tool will show you all the download buttons with preview</li>
+            </ol>
+            <div class="about-content contentinfo borderLeft">📢 Youtube Shorts thumbnail can also be downloaded with this free tool. YouTube Shorts Thumbnail Download is now Supported!</div>
+            <h3>Can I use someone's thumbnail in my video?</h3>
+            <p>Using others' thumbnails in your videos without the permission of the video owner means that you are infringing copyright. If you want to use thumbnails, get permission from the copyright owner or create another unique thumbnail using the thumbnail. If you use copyrighted thumbnails, your channel may get a copyright strike from the original copyright owner, and you may face severe problems with your channel.</p>
+            <h3><span class="default-color">5 Reasons</span> Why You Should Use Our Tool</h3>
+            <ol>
+                <li>User-Friendly</li>
+                <li>Fast & Secure</li>
+                <li>Device-Friendly</li>
+                <li>No Annoying Ads</li>
+                <li>No Limitations</li>
+            </ol>
+            <h3 >Features - <span class="default-color">That only we are Offering</span></h3>
+            <p>We take user experience seriously, that's why before publishing any tool, we do check other tools on the internet to see what others are offering and what improvements we can bring to enhance our user experience.</p>
+            <ul>
+            	<li>Clean UI</li>
+            	<li>Thumbnail preview</li>
+            	<li>Live, Fast & Secure</li>
+            	<li>Download all available qualities</li>
+                <li>Hotkey to help things done quickly</li>
+                <li>No limitations on usage</li>
+                <li>No Popups, No annoying ads</li>
+            </ul>
+            <div class="about-content contentinfo borderLeft">
+				<div class="heading2">Make This Tool Handy</div>
+				<ol>
+					<li><code>/</code> - Focus the input box.</li>
+					<li><code><div class="yt-result-options-preview-button" style="visibility: visible;display: inline-block;vertical-align: middle;margin: 0;opacity: 1;"></div></code> - Click on eye button to view the thumbnail</li>
+					<li><code>CTRL + S</code> - Download the Max available quality thumbnail</li>
+				</ol>
+			</div>
+            <!-- FAQ's -->
+            <div class="faq-wrapper">
+                <div class="faq-heading">Important <span class="default-color">FAQ's</span></div>
+                <div class="tool-faq">
+                    <div class="faq-question">What does this tool do?</div>
+                    <div class="faq-answer">This free online YouTube Thumbnail Downloader Tool helps you download the thumbnail of any YouTube video you want.</div>
+                </div>
+
+                <div class="tool-faq">
+                    <div class="faq-question">Do we store your personal data?</div>
+                    <div class="faq-answer">No, we do not store or collect your personally identifiable data from this tool.</div>
+                </div>
+
+                <div class="tool-faq">
+                    <div class="faq-question">How does this tool work?</div>
+                    <div class="faq-answer">It uses YouTube Data API v3 to retrieve the required information of the queried video.</div>
+                </div>
+                <div class="tool-faq">
+                    <div class="faq-question">How can I report a bug in this tool?</div>
+                    <div class="faq-answer">If you find a bug, please send us an email immediately using this <a href="/contact">form</a> or at our address - <a onclick="window.location='mailto:\u0072\u0065\u0070\u006f\u0072\u0074\u002d\u0062\u0075\u0067\u0040\u0074\u006f\u006f\u006c\u0073\u006f\u0076\u0065\u0072\u0066\u006c\u006f\u0077\u002e\u0063\u006f\u006d'"><script type="text/javascript">document.write('\u0072\u0065\u0070\u006f\u0072\u0074\u002d\u0062\u0075\u0067\u0040\u0074\u006f\u006f\u006c\u0073\u006f\u0076\u0065\u0072\u0066\u006c\u006f\u0077\u002e\u0063\u006f\u006d')</script></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Tool Rating -->
+<div class="tool-sec-div" id="feedback-top-section">
+	<div class="tool-sec-header">Support <span class="default-color">ToolsOverflow</span></div>
+	<div class="feedback-message-wrapper">
+		<div class="support-message">You can support us - buying a coffee or submiting your feedback</div>
+	</div>
+	<div class="support-bmc-wrapper">
+		<div class="support-bmc-button">
+			<div class="support-bmc-button-image">
+				<a href="https://www.buymeacoffee.com/toolsoverflow" rel="external nofollow" target="_blank"><img alt="Buy me a coffee" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&slug=toolsoverflow&button_colour=FF571A&font_colour=FFFFFF&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" width="250" draggable='false'/></a>
+			</div>
+			<div class="support-bmc-button-info">It will take you to buymeacoffee.com page for buying a coffee.</div>
+		</div>
+		<div class="support-bmc-division"></div>
+		<div class="support-bmc-qr">
+			<img src="/assets/img/bmc-qr.png" width="250" height="250" draggable='false'/>
+			<div class="support-bmc-qr-info">Scan the QR code to buy a coffee for us. Thank you for your support</div>
+		</div>
+	</div>
+</div>
+
+<div class="tool-sec-div" id="feedback-main-section">
+	<!-- Rating Wrapper -->
+	<div class="tool-sec-content">
+		<div class="feedback-content">
+			<div class="feedback-wrapper">
+				<div class="feedback-icon-wrapper">
+					<div class="feedback-icon-container" id="worst-wrapper">
+						<div class="feedback-icon" id="worst"></div>
+						<div class="feedback-text">Worst</div>
+					</div>
+					<div class="feedback-icon-container" id="poor-wrapper">
+						<div class="feedback-icon" id="poor"></div>
+						<div class="feedback-text">Poor</div>
+					</div>
+					<div class="feedback-icon-container" id="average-wrapper">
+						<div class="feedback-icon" id="average"></div>
+						<div class="feedback-text">Average</div>
+					</div>
+					<div class="feedback-icon-container" id="good-wrapper">
+						<div class="feedback-icon" id="good"></div>
+						<div class="feedback-text">Good</div>
+					</div>
+					<div class="feedback-icon-container" id="excellent-wrapper">
+						<div class="feedback-icon" id="excellent"></div>
+						<div class="feedback-text">Excellent</div>
+					</div>
+				</div>
+				<div class="feedback-slider-wrapper">
+					<div class="feedback-slider">
+						<div class="slider-image"></div>
+					</div>
+				</div>
+
+				<div class="f-next-button">
+					<button id="next-step">NEXT</button>
+				</div>
+			</div>
+			<div class="feedback-input-wrapper">
+				<div class="feedback-loader"></div>
+				<div class="f-input-wrapper">
+					<div class="f-message-wrapper">
+						<div class="name-wrapper">
+							<div class="field-wrapper">
+								<input type="text" id="f-first-name" placeholder="First name*" value="">
+							</div>
+							<div class="field-wrapper">
+								<input type="text" id="f-last-name" placeholder="Last name" value="">
+							</div>
+						</div>
+						<div class="textarea-wrapper">
+							<textarea id="f-message-box" placeholder="What do you think of this tool?*" maxlength="1500"></textarea>
+						</div>
+						<div class="feedback-error-message">Please enter fields marked with *</div>
+					</div>
+					<div class="feedback-info-wrapper">
+						<div class="feedback-info-icon">
+							<svg viewBox="0 0 416.979 416.979">
+								<path d="M356.004,61.156c-81.37-81.47-213.377-81.551-294.848-0.182c-81.47,81.371-81.552,213.379-0.181,294.85
+								c81.369,81.47,213.378,81.551,294.849,0.181C437.293,274.636,437.375,142.626,356.004,61.156z M237.6,340.786
+								c0,3.217-2.607,5.822-5.822,5.822h-46.576c-3.215,0-5.822-2.605-5.822-5.822V167.885c0-3.217,2.607-5.822,5.822-5.822h46.576
+								c3.215,0,5.822,2.604,5.822,5.822V340.786z M208.49,137.901c-18.618,0-33.766-15.146-33.766-33.765
+								c0-18.617,15.147-33.766,33.766-33.766c18.619,0,33.766,15.148,33.766,33.766C242.256,122.755,227.107,137.901,208.49,137.901z"/>
+							</svg>
+						</div>
+						<div class="feedback-info-text">
+							Your IP address may be used to track your ratings.						</div>
+					</div>
+					<div class="f-submit-wrapper">
+						<button id="f-submit">SUBMIT</button>
+						<button id="f-back">BACK</button>
+					</div>
+				</div>
+				<div class="f-message">
+					<div class="f-message-head">Thank you</div>
+					<div class="f-message-des">for your</div>
+					<div class="f-message-bottom"><span id="f-m-valuable">Valuable</span> <span id="f-m-feedback">Feedback</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Steps -->
+	<div class="feedback-step">
+		<div class="f-step step1"></div>
+		<div class="f-step step2"></div>
+	</div>
+</div>	<!-- Related Tools -->
+<div class="tof-related-wrapper">
+	<div class="tof-related-header">Related Tools</div>
+
+	<!-- Related Tools List -->
+	<div class="tof-related-content">
+		<!-- Card -->
+		
+					<div class="tof-related-tool-wrapper">
+				<a href="/youtube/youtube-tag-extractor">
+					<div class="tof-related-head">
+						<div class="tof-related-name">YouTube Tag Extractor</div>
+						<div class="tof-related-arrow"></div>
+					</div>
+					<div class="tof-related-des">Extract tags or keywords from any YouTube video with this tool, which also provides functionality like you can edit, copy and add more tags.</div>
+					
+					<!-- Rating -->
+					<div class="tof-related-rating-wrapper">
+						<div class="tof-related-rating">
+							<div class="grey-stars"></div>
+							<div class="filled-stars" style="width:0%"></div>
+						</div>
+						<div class="tof-rating-score">
+							(0)
+						</div>
+					</div>
+				</a>
+			</div>
+					<div class="tof-related-tool-wrapper">
+				<a href="/youtube/youtube-profile-banner-downloader">
+					<div class="tof-related-head">
+						<div class="tof-related-name">YouTube Banner & Profile Downloader in HD</div>
+						<div class="tof-related-arrow"></div>
+					</div>
+					<div class="tof-related-des">Download the banner and profile image of any YouTube channel in all the highest available resolutions and qualities.</div>
+					
+					<!-- Rating -->
+					<div class="tof-related-rating-wrapper">
+						<div class="tof-related-rating">
+							<div class="grey-stars"></div>
+							<div class="filled-stars" style="width:0%"></div>
+						</div>
+						<div class="tof-rating-score">
+							(0)
+						</div>
+					</div>
+				</a>
+			</div>
+					<div class="tof-related-tool-wrapper">
+				<a href="/youtube/youtube-title-description-extractor">
+					<div class="tof-related-head">
+						<div class="tof-related-name">YouTube Title & Description Extractor</div>
+						<div class="tof-related-arrow"></div>
+					</div>
+					<div class="tof-related-des">Extract any YouTube video Title & Description with other useful meta-data and ease. It fetches data within your sight.</div>
+					
+					<!-- Rating -->
+					<div class="tof-related-rating-wrapper">
+						<div class="tof-related-rating">
+							<div class="grey-stars"></div>
+							<div class="filled-stars" style="width:96%"></div>
+						</div>
+						<div class="tof-rating-score">
+							(4.8)
+						</div>
+					</div>
+				</a>
+			</div>
+					<div class="tof-related-tool-wrapper">
+				<a href="/youtube/youtube-region-restriction">
+					<div class="tof-related-head">
+						<div class="tof-related-name">YouTube Region Restriction</div>
+						<div class="tof-related-arrow"></div>
+					</div>
+					<div class="tof-related-des">This free tool lets you see the list of countries where a particular YouTube video is blocked and it also highlights countries on world map, where that video is not blocked.</div>
+					
+					<!-- Rating -->
+					<div class="tof-related-rating-wrapper">
+						<div class="tof-related-rating">
+							<div class="grey-stars"></div>
+							<div class="filled-stars" style="width:100%"></div>
+						</div>
+						<div class="tof-rating-score">
+							(5)
+						</div>
+					</div>
+				</a>
+			</div>
+					<div class="tof-related-tool-wrapper">
+				<a href="/youtube/youtube-thumbnail-downloader">
+					<div class="tof-related-head">
+						<div class="tof-related-name">YouTube Thumbnail Downloader</div>
+						<div class="tof-related-arrow"></div>
+					</div>
+					<div class="tof-related-des">Download and view thumbnail of any YouTube video in all available resolutions and qualities. It offers one click download without showing annoying ads.</div>
+					
+					<!-- Rating -->
+					<div class="tof-related-rating-wrapper">
+						<div class="tof-related-rating">
+							<div class="grey-stars"></div>
+							<div class="filled-stars" style="width:0%"></div>
+						</div>
+						<div class="tof-rating-score">
+							(0)
+						</div>
+					</div>
+				</a>
+			</div>
+			</div>
+</div>
+	<!-- Footer -->
+	<div id="tool-list-content">
+	<div class="tool-list-wrapper">
+		<div class="tool-list-signup">
+			<div class="tool-list-head-wrapper">
+				<div class="tool-list-heading">Explore Tools</div>
+				<div class="tool-list-button-wrapper">
+					<button id="tool-list-signup" onclick="window.location.href='/create-account'">Signup for free</button>
+					<button id="tool-list-login" onclick="window.location.href='/login'">Login</button>
+				</div>
+			</div>
+		</div>
+		<div class="tool-list-content-wrapper">
+		    <div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">General</div>
+				<div class="tool-categ-list">
+				    <div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/general/notepad'>Online Notepad</a></div>
+						</div>
+					</div>
+					
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/general/what-is-my-screen-resolution'>What is my Screen Resolution</a></div>
+						</div>
+					</div>
+					
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/general/random-dice-generator'>Random Dice Generator</a></div>
+						</div>
+					</div>
+					
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/image/image-dimension-checker'>Image Resolution Checker</a></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		    <div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">YouTube</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/youtube/youtube-tag-extractor'>Youtube Tag Extractor</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/youtube/youtube-thumbnail-downloader'>YouTube Thumbnail Downloader</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/youtube/youtube-region-restriction'>YouTube Region Restriction Checker</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/youtube/youtube-title-description-extractor'>YouTube Title & Description Extractor</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/youtube/youtube-profile-banner-downloader'>YouTube Profile & Banner Downloader</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">Base64</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/base64/base64-encoder'>Base64 Encoder</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/base64/base64-decoder'>Base64 Decoder</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/base64/base64-to-image'>Base64 to Image</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/base64/image-to-base64'>Image to Base64</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">Prank Tools</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/prank-tools/sms-bomber'>SMS Bomber</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">MD5 Hash</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/md5-hash-generator'>MD-5 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/md2-hash-generator'>MD-2 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/md4-hash-generator'>MD-4 Hash Generator</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">SHA Hash</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha1-hash-generator'>SHA-1 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha224-hash-generator'>SHA-224 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha256-hash-generator'>SHA-256 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha384-hash-generator'>SHA-384 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha512-hash-generator'>SHA-512 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha3-224-hash-generator'>SHA3-224 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha3-256-hash-generator'>SHA3-256 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha3-384-hash-generator'>SHA3-384 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha3-512-hash-generator'>SHA3-512 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha512-224-hash-generator'>SHA-512/224 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/sha512-256-hash-generator'>SHA-512/256 Hash Generator</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tool-list-categ-wrapper">
+				<div class="tool-list-categ">Other Hash</div>
+				<div class="tool-categ-list">
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/crc-16-hash-generator'>CRC-16 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/crc-32-hash-generator'>CRC-32 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/shake-128-hash-generator'>Shake-128 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/shake-256-hash-generator'>Shake-256 Hash Generator</a></div>
+						</div>
+					</div>
+					
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/keccak-224-hash-generator'>Keccak-224 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/keccak-256-hash-generator'>Keccak-256 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/keccak-384-hash-generator'>Keccak-384 Hash Generator</a></div>
+						</div>
+					</div>
+
+					<div class="tool-categ-list-card">
+						<div class="tool-categ-list-head">
+							<div class="tool-categ-list-name"><a href='/cryptography-tools/keccak-512-hash-generator'>Keccak-512 Hash Generator</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class='t-footer'>
+	<div class='t-footer-content'>
+		<div class='t-footer-about-wraper'>
+			<div class='t-footer-tof'>
+				<div class='t-footer-logo'></div>
+				<div class='t-footer-name'>ToolsOverflow</div>
+			</div>
+			<div class='t-footer-about'>
+				<p>ToolsOverflow is dedicated to providing free and easy to use online tools.</p>
+			</div>
+			<div class='t-footer-copyright'>© 2021 - 2023 | ToolsOverflow</div>
+		</div>
+		<div class='t-footer-link-wraper'>
+			<div class='t-footer-sec1'>
+				<div class='secHead'>Quick Links</div>
+				<div class='secLink'>
+					<li><a href='/about'>About Us</a></li>
+					<li><a href='/privacy-policy'>Privacy Policy</a></li>
+					<li><a href='/refund-policy'>Refund Policy</a></li>
+					<li><a href='/terms-of-service'>Terms of Service</a></li>
+				</div>
+			</div>
+			<div class='t-footer-sec2'>
+				<div class='secHead'>API</div>
+				<div class='secLink'>
+					<li><a href='/create-account'>Sign Up</a></li>
+					<li><a href='/verify-email'>Email Verify</a></li>
+					<li><a href='/api-services'>API Services</a></li>
+					<li><a href='/documentation/'>Documentation</a></li>
+				</div>
+			</div>
+			<div class='t-footer-sec3'>
+				<div class='secHead'>Social Media</div>
+				<div class='secLink' id='socialLink'>
+					<li><i class='tof-youtube'></i><a href='https://www.youtube.com/channel/UC-SAwkF4_sjeOmetocafSDg'>YouTube</a></li>
+					<li><i class='tof-twitter'></i><a href='https://twitter.com/OverflowTools'>Twitter</a></li>
+					<li><i class='tof-instagram'></i><a href='#'>Instagram</a></li>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
